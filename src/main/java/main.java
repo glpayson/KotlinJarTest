@@ -14,12 +14,14 @@ public class main {
 		Salutation salutation = sailorGreeting.getSalutation();
 
 		Boolean eq0 = kotlinGreeting0.equals(kotlinGreeting1);
-		System.out.println(eq0);
+		System.out.println(eq0); 	// true
 		Boolean eq1 = kotlinGreeting0 == kotlinGreeting1;
-		System.out.println(eq1);
+		System.out.println(eq1);	// false
 		Boolean eq2 = kotlinGreeting0.equals(sailorGreeting);
-		System.out.println(eq2);
+		System.out.println(eq2);	// false
 
+		// Hello, kotlin
 		System.out.println(kotlinGreeting0.getSalutation().getMessage() + kotlinGreeting0.getWhoToGreet());
+		System.out.println(sailorGreeting.toString());
 	}
 }
